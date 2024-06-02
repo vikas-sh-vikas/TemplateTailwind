@@ -2,6 +2,8 @@ import React from "react";
 import { Inter } from "next/font/google";
 
 function CompanyInfo(props: any) {
+  // const inter = Inter({ subsets: ['latin'] })
+
   return (
     <>
       <div className="min-h-dvh grid grid-cols-12 bg-black h-full relative">
@@ -17,7 +19,7 @@ function CompanyInfo(props: any) {
               alt="probuy"
               className="h-20 w-50 m-auto"
             />
-            <h1 className="text-4xl text-white m-auto py-4">
+            <h1 className="font-bold 700 text-4xl text-white m-auto py-4">
               اهلا بك فى بروباى
             </h1>
             <span className="text-lg	font-almarai text-base leading-relaxed font-normal text-center text-white text-weight-400">
@@ -31,7 +33,7 @@ function CompanyInfo(props: any) {
           <div className="bg-neutral-900 m-4 grid gap-4 grid-cols-2 p-4">
             <div className="col-span-2">
               {" "}
-              <h1 className="text-lg text-center text-white pt-3">
+              <h1 className="font-bold text-lg text-center text-white pt-3">
                 انشاء حساب{" "}
               </h1>
             </div>
