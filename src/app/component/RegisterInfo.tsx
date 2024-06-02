@@ -10,66 +10,68 @@ function RegisterInfo(props:any) {
           ></img>
           <div className="sm:col-span-3 sm:block hidden"></div>
           <div className="sm:col-span-6 col-span-12 bg-black">
-            <div className="flex flex-col p-4">
-              <img src={props.Authlogo} alt="probuy" className="h-20 w-50 m-auto" />
-              <h1 className="text-4xl text-center text-white m-auto py-4">
-                Welcome to Propay
-              </h1>
-              <span className="text-lg	font-almarai text-base leading-relaxed font-normal text-center text-white text-weight-400">
-                Enter the data required to create a new account, or{" "}
-                <a href="url" className="text-orange-400 underline">
-                  log in
-                </a>{" "}
-                if you already have an account
-              </span>
-            </div>
+          <div className="flex flex-col p-4">
+            <img
+              src={props.Authlogo}
+              alt="probuy"
+              className="h-20 w-50 m-auto"
+            />
+            <h1 className="text-4xl text-white m-auto py-4">
+              اهلا بك فى بروباى
+            </h1>
+            <span className="text-lg	font-almarai text-base leading-relaxed font-normal text-center text-white text-weight-400">
+              اذا كان لديك حساب{" "}
+              <a href="url" className="text-orange-400 underline">
+                تسجيل الدخول
+              </a>{" "}
+              قم بادخال البيانات المطلوبة لانشاء حساب جديد, بالفعل او{" "}
+            </span>
+          </div>
             <div className="bg-neutral-900 m-4 grid gap-4 grid-cols-2 p-4">
               <div className="col-span-2">
                 {" "}
                 <h1 className="text-lg text-center text-white pt-3">
-                  Create an account
-                </h1>
+                انشاء حساب                </h1>
               </div>
               <div className="col-span-2">
                 <div className="flex pb-2 px-6">
-                  <button className="rounded-full p-4 bg-orange-400 border-2 border-orange-400"></button>
-                  <div
-                    className={`w-full h-1 flex-1 bg-orange-400 m-auto mx-1`}
-                  ></div>
-                  <button className="rounded-full p-4 bg-neutral-900 border-2 border-orange-400"></button>
+
+                  <button className="rounded-full p-4 bg-gray-300 border-none"></button>
+
                   <div
                     className={`w-full h-px flex-1 bg-gray-300 m-auto mx-1`}
                   ></div>
-                  <button className="rounded-full p-4 bg-gray-300 border-none"></button>
+                  <button className="rounded-full p-4 bg-neutral-900 border-2 border-orange-400"></button>
+                  <div
+                    className={`w-full h-1 flex-1 bg-orange-400 m-auto mx-1`}
+                  ></div>
+                  <button className="rounded-full p-4 bg-orange-400 border-2 border-orange-400"></button>
                 </div>
-                <div className="flex justify-between pb-4">
-                  <span className="text-gray-400">Company Data</span>
-                  <span className="text-gray-400">
-                    Registration information
-                  </span>
-                  <span className="text-gray-400">The Documents</span>
-                </div>
+                <div className="flex justify-between pb-4 px-4">
+                <span className="text-gray-400 text-xs">المستندات</span>
+                <span className="text-gray-400 text-xs">معلومات التسجيل</span>
+                <span className="text-gray-400 text-xs">بيانات الشركة </span>
+              </div>
               </div>
               <div className="col-span-2">
-                <label className="block text-sm font-normal text-gray-400 text-weight-400 mb-2">
-                  E-mail
+                <label className="block text-sm font-normal text-gray-400 text-weight-400 mb-2 text-end">
+                البريد الالكترونى                
                 </label>
                 <input
-                  className="w-full py-2 px-3 bg-neutral-800 border-neutral-700 placeholder-gray-400 rounded-lg text-sm font-normal text-amber-700 text-weight-400 mb-2"
-                  placeholder="Enter Email"
+                  className="w-full py-2 px-3 bg-neutral-800 border-neutral-700 placeholder-gray-400 rounded-lg text-sm font-normal text-amber-700 text-weight-400 mb-2 text-end"
+                  placeholder="مثل: hi@probuy.com"
                 />
               </div>
               <div className="col-span-2">
-                <label className="block text-sm font-normal text-gray-400 text-weight-400 mb-2">
-                  Password
+                <label className="block text-sm font-normal text-gray-400 text-weight-400 mb-2 text-end">
+                كلمة المرور
                 </label>
                 <input
-                  className="w-full py-2 px-3 bg-neutral-800 border-neutral-700 placeholder-gray-400 rounded-lg text-sm font-normal text-amber-700 text-weight-400 mb-2"
-                  placeholder="Enter Password"
+                  className="w-full py-2 px-3 bg-neutral-800 border-neutral-700 placeholder-gray-400 rounded-lg text-sm font-normal text-amber-700 text-weight-400 mb-2 text-end"
+                  placeholder="ادخل كلمة المرور..."
                 />
                 <div className="relative">
-                  <label className="flex cursor-pointer select-none items-center"></label>
-                  <div className="absolute right-3 bottom-5">
+                  <div className="absolute left-3 bottom-5">
                     <div className="block h-5 w-9 text-gray-400">
                       <svg
                         className="w-7 h-7"
@@ -91,11 +93,11 @@ function RegisterInfo(props:any) {
                   onClick={() => props.onPageChange("third")}
                   className="w-5/6 bg-gradient-to-r from-orange-500 to-orange-300 text-white p-2 rounded-3xl"
                   >
-                    Tracking
+                    متابعة
                   </button>
-                  <button className="bg-neutral-900 text-orange-400 p-2 rounded-3xl border-2 border-orange-400 ml-4">
-                    Reference
-                  </button>
+                  <button className="px-4 bg-neutral-900 text-orange-400 p-2 rounded-3xl border-2 border-orange-400">
+                    رجوع
+                  </button> 
                 </div>
               </div>
             </div>
