@@ -1,7 +1,7 @@
 "use client";
-import CompanyInfo from "@/component/CompanyInfo";
-import DocumentInfo from "@/component/DocumentInfo";
-import RegisterInfo from "@/component/RegisterInfo";
+import CompanyInfo from "@/app/component/CompanyInfo";
+import DocumentInfo from "@/app/component/DocumentInfo";
+import RegisterInfo from "@/app/component/RegisterInfo";
 import { useState } from "react";
 export default function Home() {
   const Authlogo = "probuy.png";
