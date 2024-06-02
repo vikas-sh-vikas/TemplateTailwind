@@ -1,0 +1,165 @@
+[
+  {
+    "key": "WelcomeMessage",
+    "value": {
+      "en": "Welcome to Probay",
+      "ar": "اهلا بك فى بروباى"
+    }
+  },
+  {
+    "key": "InstructionMessage1",
+    "value": {
+      "en": "Please enter the required information to create a new account, or",
+      "ar": "أدخل البيانات المطلوبة لإنشاء حساب جديد، أو"
+    }
+  },
+  {
+    "key": "login",
+    "value": {
+      "en": "log in",
+      "ar": "تسجيل الدخول"
+    }
+  },
+  {
+    "key": "InstructionMessage2",
+    "value": {
+      "en": "if you already have an account",
+      "ar": "اذا كان لديك حساب"
+    }
+  },
+  {
+    "key": "CreateAccount",
+    "value": {
+      "en": "Create Account",
+      "ar": "انشاء حساب"
+    }
+  },
+  {
+    "key": "Documents",
+    "value": {
+      "en": "Documents",
+      "ar": "المستندات"
+    }
+  },
+  {
+    "key": "RegistrationInfo",
+    "value": {
+      "en": "Registration Information",
+      "ar": "معلومات التسجيل"
+    }
+  },
+  {
+    "key": "CompanyInfo",
+    "value": {
+      "en": "Company Information",
+      "ar": "بيانات الشركة"
+    }
+  },
+  {
+    "key": "CompanyLocation",
+    "value": {
+      "en": "Company Location",
+      "ar": "موقع الشركة"
+    }
+  },
+  {
+    "key": "Name",
+    "value": {
+      "en": "Name",
+      "ar": "الاسم"
+    }
+  },
+  {
+    "key": "EnterCompanyLocation",
+    "value": {
+      "en": "Enter company location...",
+      "ar": "ادخل موقع الشركة..."
+    }
+  },
+  {
+    "key": "EnterCompanyName",
+    "value": {
+      "en": "Enter company name...",
+      "ar": "ادخل اسم الشركة..."
+    }
+  },
+  {
+    "key": "StartDate",
+    "value": {
+      "en": "Start Date",
+      "ar": "تاريخ بداية العمل"
+    }
+  },
+  {
+    "key": "EnterStartDate",
+    "value": {
+      "en": "Enter start date...",
+      "ar": "ادخل تاريخ بداية العمل..."
+    }
+  },
+  {
+    "key": "CommercialRegisterNumber",
+    "value": {
+      "en": "Commercial Register Number",
+      "ar": "رقم السجل التجارى"
+    }
+  },
+  {
+    "key": "EnterCommercialRegisterNumber",
+    "value": {
+      "en": "Enter commercial register number...",
+      "ar": "ادخل رقم السجل التجارى..."
+    }
+  },
+  {
+    "key": "PhoneNumber",
+    "value": {
+      "en": "Phone Number",
+      "ar": "رقم الهاتف"
+    }
+  },
+  {
+    "key": "EnterPhoneNumber",
+    "value": {
+      "en": "Enter phone number...",
+      "ar": "ادخل رقم الهاتف..."
+    }
+  },
+  {
+    "key": "FieldOfWork",
+    "value": {
+      "en": "Field of Work",
+      "ar": "مجال العمل"
+    }
+  },
+  {
+    "key": "SelectFieldOfWork",
+    "value": {
+      "en": "Select field of work...",
+      "ar": "اختر مجال العمل..."
+    }
+  },
+  {
+    "key": "POSSystem",
+    "value": {
+      "en": "Do you have a POS system?",
+      "ar": "هل لديك نظام نقاط البيع"
+    }
+  },
+  {
+    "key": "Yes",
+    "value": {
+      "en": "Yes",
+      "ar": "نعم"
+    }
+  },
+  {
+    "key": "Proceed",
+    "value": {
+      "en": "Proceed",
+      "ar": "متابعة"
+    }
+  }
+]
+
+  
